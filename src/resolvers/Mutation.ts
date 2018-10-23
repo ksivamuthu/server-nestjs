@@ -7,7 +7,7 @@ import * as jwt from 'jsonwebtoken';
 
 /**
  * @description Generates the user jwt token for authentication
- * @param user takes the current user object from prisma
+ * @param user takes the current user object.
  * @param ctx accepts the apollo server context
  */
 function generateToken(user: any, ctx: any) {

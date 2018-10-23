@@ -1,12 +1,5 @@
 import * as jwt from 'jsonwebtoken';
 import { createError } from 'apollo-errors';
-import { Prisma } from '../../generated/prisma';
-
-// Prisma context interface for better code completeion
-export interface Context {
-  db: Prisma;
-  request: any;
-}
 
 // Jwt secret
 export const jtwSecret = 'KLSKDJUY$%@!&^&^@#!&^%!@$Vgdgsdf_()900*&%^$%#@@hf156176';
